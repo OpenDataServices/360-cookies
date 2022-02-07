@@ -6,7 +6,7 @@
   
 .cookie-consent {
   width: 450px;
-  height: 250px;
+  height: 325px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -21,8 +21,8 @@
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['requireCookieConsent']); // Don't use cookies unless we have consent
-  _paq.push(['setCookieDomain', '*.opendataservices.github.io']);
-  _paq.push(['setDomains', '*.opendataservices.github.io']);
+  _paq.push(['setCookieDomain', '*.threesixtygiving.org']);
+  _paq.push(['setDomains', '*.threesixtygiving.org']);
   _paq.push(['setDownloadExtensions', "json|csv|xlsx"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
@@ -50,6 +50,7 @@
               <a href="#" class="button">No</a>
               <a href="#" onclick="_paq.push(['optUserOut']);" class="button">Disable Analytics</a>
           </p>
+          <p style="font-style: italic;">360Giving uses privacy-respecting analytics. If you don't accept cookies, we will track only basic information about your visit. Click "Disable Analytics" if you don't want us to track at all. </p>
       </div>
   </div>
 
