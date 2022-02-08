@@ -1,5 +1,7 @@
 # 360-cookies
 
+See mockup at https://opendataservices.github.io/360-cookies/popup.html#
+
 TODO:
 
 * Make the No button drop a cookie so that we don't ask again
